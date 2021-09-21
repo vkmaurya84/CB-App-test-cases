@@ -38,8 +38,17 @@ public class ContactPage {
 
 		driver.findElement(By.cssSelector("[data-id='0']")).click();
 		t1();
-		driver.findElement(By.xpath("//div/button[@aria-label='block']")).click();
+		driver.findElement(By.xpath("//div/button[@aria-label='block']")).click(); 
+		
+//		driver.findElement(By.xpath("//span[contains(text(),'Yes')]")).click();
+//		driver.findElement(By.xpath("//span[contains(text(),'No')]")).click();
+		
 		driver.findElement(By.xpath("//div/button[@aria-label='report']")).click();
+		
+//		driver.findElement(By.xpath("//div[contains(text(),'Choose category')]")).click();
+//		driver.findElement(By.id("comments")).sendKeys("dfdfsdfsdf");
+//		driver.findElement(By.xpath("//span[contains(text(),'Report')]")).click();
+		
 //		driver.findElement(By.xpath("//div/button[@aria-label='favourite']")).click();
 //		driver.findElement(By.xpath("//div/button[@aria-label='tags']")).click();
 //		t1();
